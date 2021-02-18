@@ -12,5 +12,5 @@ Thymio - Asebia : custom robot that moves while dodging any obstacle in a playgr
 #### 6 - Double clic the robot and press the top button to launch it
 ![](https://github.com/Mxtthieu/-subsumption/blob/rmressources/button.PNG?raw=true)
 #### 7 - Customize it the way you want, play with the code
-There is a lot of leds you can play with, I already customized it but you can change it whenever you want
+There is a lot of leds you can play with, I already customized it but you can change it whenever you want  
 ![](https://github.com/Mxtthieu/-subsumption/blob/rmressources/leds.PNG?raw=true)
