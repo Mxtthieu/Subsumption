@@ -3,4 +3,4 @@ Thymio - Asebia : custom robot that moves while dodging any obstacle in a playgr
 
 1 - Download Thymio (https://www.thymio.org/fr/programmer/)
 2 - Launch Asebia Studio
-![alt text](https://github.com/Mxtthieu/-subsumption/rmressources/asebia.png?raw=true)
+![](https://github.com/Mxtthieu/-subsumption/blob/rmressources/asebia.png?raw=true)
