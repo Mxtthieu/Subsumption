@@ -1,0 +1,55 @@
+<!DOCTYPE aseba-playground>
+
+<!-- Aseba playground :  simulation pour Aseba ;
+
+     Labyrinthe usuellement construit en travaux pratiques 
+     pour les enseignements de robotique en master à l'université
+     de Lorraine, et en 3ème année à Centrale/Supélec.
+  -->
+
+<aseba-playground>
+  <author name="Alexis Scheuer"
+	  email="Alexis dot Scheuer at univ-lorraine dot fr" />
+  
+  <description lang="en"> <h1>Labyrinth for practical work</h1>
+    <p>
+      This labyrinth simulates the one usualy built for practical work
+      of robotic classes in Lorraine university's master, as well as
+      in third year at Centrale/Supélec.
+    </p><p>
+      Many thanks to Valérian Damm for his help in searching how
+      to rotate walls.
+    </p>
+  </description>
+
+  <description lang="fr"> <h1>Labyrinthe pour TP</h1>
+    <p>
+      Ce labyrinthe reproduit celui construit d'habitude en travaux
+      pratiques pour les enseignements de robotique en master 
+      à l'université de Lorraine, et en 3ème année à Centrale/Supélec.
+    </p><p>
+      Un grand merci à Valérian Damm, sans qui je n'aurais pas trouvé
+      comment pivoter certains murs.
+    </p>
+  </description>
+
+  <color name="wall" r="0.9" g="0.9" b="0.9" />
+  
+  <world w="110" h="180" color="wall" />
+  
+  <wall x="59"  y="40"  l1="40" l2="1"  h="10" color="wall" angle="0.5236"/>
+  <wall x="62"  y="64"  l1="40" l2="1"  h="10" color="wall" angle="-0.7854"/>
+  <wall x="34"  y="64"  l1="40" l2="1"  h="10" color="wall" angle="0.7854"/>
+  <wall x="20"  y="30"  l1="1"  l2="40" h="10" color="wall" />
+  <wall x="60"  y="10"  l1="80" l2="1"  h="10" color="wall" />
+  <wall x="100" y="90"  l1="1"  l2="160" h="10" color="wall" />
+  <wall x="60"  y="170" l1="80" l2="1"  h="10" color="wall" />
+  <wall x="20"  y="150" l1="1"  l2="40" h="10" color="wall" />
+  <wall x="34"  y="116" l1="40" l2="1"  h="10" color="wall" angle="-0.7854"/>
+  <wall x="62"  y="116" l1="40" l2="1"  h="10" color="wall" angle="0.7854"/>
+  <wall x="59"  y="140" l1="40" l2="1"  h="10" color="wall" angle="-0.5236"/>
+ 
+  <robot type="thymio2" x="10" y="90" port="33333" />
+  
+  <process command=":asebamassloader --once labyrinthe.aesl tcp:localhost;33333" />
+</aseba-playground>
